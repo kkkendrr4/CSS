@@ -1,0 +1,34 @@
+h2{
+    background-color: #f59ce6;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+.nav{
+    width: 20%;
+    height: fit-content;
+    background: #f59ce6;
+
+}
+ul.vertical{
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background: #f59ce6;
+}
+ul.vertical li a{
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+}
+ul.vertical li a:hover{
+    background: #c472b6;
+    color: white
+}
+h2{
+    
+}

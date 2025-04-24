@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+      box-sizing: border-box;
+    }
+
+    [class*="col-"] { float: left; padding: 15px; }
+
+    [class*="col-"] {width: 100%;}
+
+    @media only screen and (min-width: 600px) {
+        .col-s-1 {width: 10%;}
+        .col-s-2 {width: 20%;}
+        .col-s-3 {width: 30%;}
+        .col-s-4 {width: 40%;}
+        .col-s-5 {width: 50%;}
+        .col-s-6 {width: 60%;}
+        .col-s-7 {width: 70%;}
+        .col-s-8 {width: 80%;}
+        .col-s-9 {width: 90%;}
+        .col-s-10 {width: 100%;}
+    }
+
+    @media only screen and (min-width: 768px) {
+        .col-s-1 {width: 10%;}
+        .col-s-2 {width: 20%;}
+        .col-s-3 {width: 30%;}
+        .col-s-4 {width: 40%;}
+        .col-s-5 {width: 50%;}
+        .col-s-6 {width: 60%;}
+        .col-s-7 {width: 70%;}
+        .col-s-8 {width: 80%;}
+        .col-s-9 {width: 90%;}
+        .col-s-10 {width: 100%;}
+    }
+    
+    .bg-green{ background: #00510c; color: white}
+    .bg-blue{ background: #012051; color: white}
+    .bg-red{ background: #50011a; color: white}
+
+</style>
+<body>
+    <h3>Grid 4</h3>
+    <div class="col-3 col-s-6 bg-red">
+    Satu layar dibagi menjadi 4 bagian, jadi tiap kotak berukuran 3
+    </div>
+    <div class="col-3 col-s-6 bg-blue">
+    Satu layar dibagi menjadi 4 bagian, jadi tiap kotak berukuran 3
+    </div>
+    <div class="col-3 col-s-6 bg-green">
+    Satu layar dibagi menjadi 4 bagian, jadi tiap kotak berukuran 3
+    </div>
+    <div class="col-3 col-s-6 bg-red">
+    Satu layar dibagi menjadi 4 bagian, jadi tiap kotak berukuran 3
+    </div>
+
+    <h3>Grid 3</h3>
+    <div class="col-4 bg-green">
+    Satu layar dibagi menjadi 3 bagian, tiap bagian berukuran 4
+    </div>
+    <div class="col-4 bg-red">
+    Satu layar dibagi menjadi 3 bagian, tiap bagian berukuran 4
+    </div>
+    <div class="col-4 bg-blue">
+    Satu layar dibagi menjadi 3 bagian, tiap bagian berukuran 4
+    </div>
+
+    <h3>Grid 2</h3>
+    <div class="col-6 bg-green">
+    Satu layar dibagi menjadi 2 bagian, tiap bagian berukuran 6
+    </div>
+    <div class="col-6 bg-red">
+    Satu layar dibagi menjadi 2 bagian, tiap bagian berukuran 6
+    </div>
+
+</body>
+</html>
